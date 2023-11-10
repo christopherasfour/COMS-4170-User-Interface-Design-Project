@@ -1,0 +1,39 @@
+.header {
+    border-bottom-style: solid;
+    border-bottom-width: 0.25px;
+    border-color: #999999;
+    height: 49px;
+    position: relative;
+    width: 393px;
+  }
+  
+  .header .text-wrapper {
+    color: #ffffff;
+    font-family: "SF Pro-Regular", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    left: 97px;
+    letter-spacing: 0;
+    line-height: 22px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    width: 198px;
+  }
+  
+  .header .edit-instance {
+    height: 23px !important;
+    left: 19px !important;
+    position: absolute !important;
+    top: 16px !important;
+    width: 23px !important;
+  }
+
+  .header .profile-instance {
+    height: 23px !important;
+    right: 19px !important;
+    position: absolute !important;
+    top: 16px !important;
+    width: 23px !important;
+  }
+  
