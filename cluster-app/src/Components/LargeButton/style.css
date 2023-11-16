@@ -1,0 +1,38 @@
+.large-button {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    height: 67px;
+    justify-content: center;
+    padding: 13px 26px;
+    position: relative;
+    width: 270px;
+}
+.large-button .button-text {
+    color: var(--old-stylesgreyscalewhite);
+    font-family: 'Montserrat';
+    font-size: var(--buttons-button-large-font-size);
+    font-style: var(--buttons-button-large-font-style);
+    font-weight: var(--buttons-button-large-font-weight);
+    letter-spacing: var(--buttons-button-large-letter-spacing);
+    line-height: var(--buttons-button-large-line-height);
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+.large-button.stroke-only {
+    border: 4px solid;
+    border-color: var(--solid-coloursbutton-stroke);
+    box-shadow: var(--buttons-button-shadow);
+}
+.large-button.purple {
+    background: linear-gradient(180deg, rgb(169, 3, 210) 0%, rgb(65, 0, 149) 100%);
+    box-shadow: 1px 1px 0px #5921cb;
+}
+
+.large-button.blue {
+    background: linear-gradient(180deg, #91adc2 0%, #91adc2 100%);
+    box-shadow: 1px 1px 0px #5921cb;
+}

@@ -1,0 +1,146 @@
+.AI {
+    background-color: #a9ddd6;
+    border: 1px solid;
+    border-color: #7a8b99;
+    border-radius: 32px;
+    height: 64px;
+    width: 64px;
+  }
+  
+  .AI .aperture {
+    height: 64px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+  }
+  
+  .AI .overlap {
+    height: 55px;
+    left: 4px;
+    position: relative;
+    top: 4px;
+    width: 57px;
+  }
+  
+  .AI .overlap-group {
+    height: 28px;
+    left: 7px;
+    position: absolute;
+    top: 0;
+    width: 41px;
+  }
+  
+  .AI .aperture-wing {
+    height: 13px;
+    left: 16px;
+    position: absolute;
+    top: 6px;
+    width: 25px;
+  }
+  
+  .AI .intersect {
+    height: 17px;
+    left: -2px;
+    position: absolute;
+    top: -2px;
+    width: 29px;
+  }
+  
+  .AI .intersect-wrapper {
+    height: 13px;
+    left: -1px;
+    position: absolute;
+    top: 8px;
+    transform: rotate(-60deg);
+    width: 25px;
+  }
+  
+  .AI .img {
+    height: 26px;
+    left: -1px;
+    position: absolute;
+    top: -3px;
+    transform: rotate(60deg);
+    width: 24px;
+  }
+  
+  .AI .img-wrapper {
+    height: 13px;
+    left: 33px;
+    position: absolute;
+    top: 20px;
+    transform: rotate(60deg);
+    width: 25px;
+  }
+  
+  .AI .intersect-2 {
+    height: 25px;
+    left: 3px;
+    position: absolute;
+    top: -2px;
+    transform: rotate(-60deg);
+    width: 20px;
+  }
+  
+  .AI .div {
+    height: 28px;
+    left: 9px;
+    position: absolute;
+    top: 28px;
+    width: 41px;
+  }
+  
+  .AI .aperture-wing-2 {
+    height: 13px;
+    left: 17px;
+    position: absolute;
+    top: 8px;
+    transform: rotate(120deg);
+    width: 25px;
+  }
+  
+  .AI .intersect-3 {
+    height: 26px;
+    left: -1px;
+    position: absolute;
+    top: -3px;
+    transform: rotate(-120deg);
+    width: 24px;
+  }
+  
+  .AI .aperture-wing-3 {
+    height: 13px;
+    left: 0;
+    position: absolute;
+    top: 9px;
+    transform: rotate(-180deg);
+    width: 25px;
+  }
+  
+  .AI .intersect-4 {
+    height: 17px;
+    left: -2px;
+    position: absolute;
+    top: -2px;
+    transform: rotate(180deg);
+    width: 29px;
+  }
+  
+  .AI .aperture-wing-4 {
+    height: 13px;
+    left: -1px;
+    position: absolute;
+    top: 23px;
+    transform: rotate(-120deg);
+    width: 25px;
+  }
+  
+  .AI .intersect-5 {
+    height: 25px;
+    left: 3px;
+    position: absolute;
+    top: -2px;
+    transform: rotate(120deg);
+    width: 20px;
+  }
+  

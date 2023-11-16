@@ -1,0 +1,12 @@
+:root {
+    --buttons-button-large-font-family: "Montserrat";
+    --buttons-button-large-font-size: 20px;
+    --buttons-button-large-font-style: normal;
+    --buttons-button-large-font-weight: 500;
+    --buttons-button-large-letter-spacing: 0.4px;
+    --buttons-button-large-line-height: 150%;
+    --buttons-button-shadow: 1px 1px 0px 0px rgba(89, 33, 203, 1);
+    --grayscaleswhite: rgba(255, 255, 255, 1);
+    --old-stylesgreyscalewhite: rgba(255, 255, 255, 1);
+    --solid-coloursbutton-stroke: rgba(150, 54, 226, 1);
+}

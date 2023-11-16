@@ -1,0 +1,161 @@
+.ios-toggle {
+    border-radius: 16px;
+    height: 31px;
+    overflow: hidden;
+    width: 51px;
+  }
+  
+  .ios-toggle .off-label {
+    position: absolute;
+    top: 10px;
+  }
+  
+  .ios-toggle .knob {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 3px 7px #0000001f;
+    height: 27px;
+    top: 2px;
+  }
+  
+  .ios-toggle.on.off {
+    position: relative;
+  }
+  
+  .ios-toggle.on.on {
+    position: relative;
+  }
+  
+  .ios-toggle.off.off-its-way.off {
+    background-color: #65c466;
+  }
+  
+  .ios-toggle.on-its-way.on.off {
+    background-color: #39393d;
+  }
+  
+  .ios-toggle.off.on.off {
+    background-color: #95959b;
+  }
+  
+  .ios-toggle.off.on.off {
+    background-color: #65c466;
+  }
+  
+  .ios-toggle.on-its-way.off.on {
+    background-color: #95959b;
+  }
+  
+  .ios-toggle.off.on.off-its-way {
+    background-color: #458846;
+  }
+  
+  .ios-toggle.off.off.off {
+    background-color: #e9e9ea;
+  }
+  
+  .ios-toggle.on.on.on {
+    background-color: #6cd86b;
+  }
+  
+  .ios-toggle.off.on.on {
+    background-color: #458846;
+  }
+  
+  .ios-toggle.on.on.off-its-way {
+    background-color: #6cd86b;
+  }
+  
+  .ios-toggle.on-its-way.on.on {
+    background-color: #6f6f76;
+  }
+  
+  .ios-toggle.on.on.off {
+    background-color: #67ce67;
+  }
+  
+  .ios-toggle.on-its-way.off.off {
+    background-color: #e9e9ea;
+  }
+  
+  .ios-toggle.off.on.off {
+    background-color: #39393d;
+  }
+  
+  .ios-toggle.off.on.off-its-way {
+    background-color: #67ce67;
+  }
+  
+  .ios-toggle.off.on.on {
+    background-color: #6f6f76;
+  }
+  
+  .ios-toggle.off-its-way .off-label {
+    height: 11px;
+    left: 33px;
+    width: 11px;
+  }
+  
+  .ios-toggle.on .off-label {
+    background-color: #ffffff;
+    height: 10px;
+    left: 11px;
+    width: 1px;
+  }
+  
+  .ios-toggle.on-its-way .off-label {
+    height: 11px;
+    left: 33px;
+    width: 11px;
+  }
+  
+  .ios-toggle.off .off-label {
+    border: 1px solid;
+    border-radius: 5.5px;
+    height: 11px;
+    left: 33px;
+    width: 11px;
+  }
+  
+  .ios-toggle.on.off .off-label {
+    border-color: #ffffff;
+  }
+  
+  .ios-toggle.off.off .off-label {
+    border-color: #b2b2b2;
+  }
+  
+  .ios-toggle.off-its-way .knob {
+    left: 15px;
+    position: relative;
+    width: 34px;
+  }
+  
+  .ios-toggle.on .knob {
+    left: 22px;
+    width: 27px;
+  }
+  
+  .ios-toggle.off .knob {
+    position: relative;
+  }
+  
+  .ios-toggle.on-its-way .knob {
+    left: 2px;
+    position: relative;
+    width: 34px;
+  }
+  
+  .ios-toggle.off .knob {
+    left: 2px;
+    width: 27px;
+  }
+  
+  .ios-toggle.on.off .knob {
+    position: absolute;
+  }
+  
+  .ios-toggle.on.on .knob {
+    position: absolute;
+  }
+  

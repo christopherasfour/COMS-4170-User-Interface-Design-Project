@@ -1,0 +1,61 @@
+.blue-plus {
+    height: 64px;
+    width: 64px;
+}
+.blue-plus .frame {
+    background-color: #91adc2;
+    border: 1px solid;
+    border-color: #b9d2d5;
+    border-radius: 32px;
+    height: 64px;
+}
+.blue-plus .overlap {
+    height: 50px;
+    left: 11px;
+    position: relative;
+    top: 15px;
+    width: 42px;
+}
+.blue-plus .text-wrapper {
+    color: #b9d2d5;
+    font-family: "Montserrat";
+    font-size: 10px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 22px;
+    position: absolute;
+    text-align: center;
+    top: 24px;
+    white-space: nowrap;
+    width: 42px;
+}
+.blue-plus .group {
+    height: 28px;
+    left: 7px;
+    position: absolute;
+    top: 0;
+    width: 28px;
+}
+.blue-plus .overlap-group {
+    height: 28px;
+    position: relative;
+}
+
+.blue-plus .rectangle {
+    height: 28px;
+    left: -2px;
+    position: absolute;
+    top: 0;
+    width: 30px;
+}
+
+.blue-plus .div {
+    background-color: #b9d2d5;
+    height: 28px;
+    left: 13px;
+    position: absolute;
+    top: 0;
+    transform: rotate(90deg);
+    width: 2px;
+}
