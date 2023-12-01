@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import './App.css';
 import { Header } from './Components/Header/Header'
 import { BreadcrumbBar } from './Components/BreadcrumbBar/BreadcrumbBar';
@@ -14,6 +14,15 @@ import { SmallItemIcon } from './icons/AppIcon/SmallItemIcon';
 import { Cluster } from './Components/Cluster/Cluster';
 
 const App = () => {
+
+  const [data, setData] = useState('');
+
+  useEffect(() => {
+    fetch('/api/data')
+    .then(response => response.json())
+    .then(data => setData(data.message))
+    .catch(error => console.error('Error: ', error));
+  }, []);
 
   const handleSearch = (searchTerm) => {
     // Perform your search logic here with the searchTerm
